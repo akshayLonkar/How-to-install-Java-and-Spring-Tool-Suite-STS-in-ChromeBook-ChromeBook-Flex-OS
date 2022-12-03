@@ -1,0 +1,23 @@
+How to install Java and Spring Tool Suite(STS) in ChromeBook/ChromeBook Flex OS
+  
+     First TurnOn the Linux on ChromeBook OS
+     -      Goto Settings >> Advanced >> Developers >> Turn On Linux Development Environment
+  
+     Update Sudo   
+     -      sudo apt update 
+     
+     Install JDK
+     -      sudo apt install default-jdk
+     
+     Goto https://spring.io/tools & Copy Link Address of All New Spring Tool Suite. First 
+     check your OS Acrhitecture and Vendor Id to select either (STS Version)-Linux x86_64 or (STS Version)-Linux ARM_64 
+     -      lscpu 
+     
+     Download STS tarball file from the server 
+     -      wget https://download.springsource.com/release/STS4/4.16.1.RELEASE/dist/e4.25/spring-tool-suite-4-4.16.1.RELEASE-e4.25.0-linux.gtk.x86_64.tar.gz
+     
+     Extract the tarball using below command from the command prompt
+     -      tar -xzvf spring-tool-suite-4-4.16.1.RELEASE-e4.25.0-linux.gtk.x86_64.tar.gz
+     
+     Run the Executable from terminal to Launch the Application
+     -      ./SpringToolSuite4
